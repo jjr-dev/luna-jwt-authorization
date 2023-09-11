@@ -1,0 +1,22 @@
+{
+    "name": "phpluna/jwt-auth",
+    "description": "Autenticação com uso de JsonWebToken em Luna Framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julimar Jr",
+            "email": "julimargomesjr@hotmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "phpluna/framework": "dev-main",
+        "firebase/php-jwt": "^6.5"
+    }
+}
