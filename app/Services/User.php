@@ -60,7 +60,7 @@
 
                 $authorizationPayload = [
                     "user_id" => $id,
-                    "exp" => time() + 10
+                    "exp" => time() + 3600
                 ];
 
                 $authorizationToken = JWT::encode($authorizationPayload, Environment::get('JWT_SECRET_KEY'), 'HS256');
